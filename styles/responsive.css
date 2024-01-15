@@ -1,0 +1,14 @@
+/* nav responsive  */
+@media screen and (max-width: 600px) {
+  .container {
+    body {
+      padding: 0 5px;
+    }
+  }
+  .nav_menu {
+    display: none;
+  }
+  .hamburger_icon {
+    display: block;
+  }
+}
