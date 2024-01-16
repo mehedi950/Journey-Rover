@@ -67,4 +67,15 @@
     grid-template-columns: 1fr;
     margin: 0 5px;
   }
+  .newsletter_discount {
+    width: 200px;
+    height: 70px;
+    transform: rotate(-19.628deg) translateX(10px);
+  }
+  .newsletter_discount p {
+    font-size: 16px;
+  }
+  .newsletter_discount span {
+    font-size: 20px;
+  }
 }
