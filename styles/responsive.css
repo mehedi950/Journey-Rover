@@ -37,4 +37,19 @@
     flex-direction: column;
     padding: 50px 15px;
   }
+
+  /* destination section responsive  */
+  .destination_wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .destination_first_box {
+    grid-template-columns: 1fr;
+  }
+  .destination_second_box {
+    grid-template-columns: 1fr;
+  }
+  .destination_third_box {
+    grid-template-columns: 1fr;
+  }
 }
