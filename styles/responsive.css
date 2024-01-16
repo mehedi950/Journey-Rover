@@ -52,4 +52,13 @@
   .destination_third_box {
     grid-template-columns: 1fr;
   }
+
+  /* choose responsive */
+  .choose_box_wrapper {
+    flex-direction: column;
+    padding: 0 5px;
+  }
+  .choose_single_box {
+    width: 100%;
+  }
 }
