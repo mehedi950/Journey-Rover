@@ -301,6 +301,81 @@ body {
   text-align: left;
 }
 
+/* newsletter section styles */
+.newsletter_wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 24px;
+}
+.newsletter_text {
+  border: 1px solid var(--primary-color);
+  border-radius: 16px;
+  padding: 40px;
+}
+.newsletter_text h3 {
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: 800;
+}
+.newsletter_text p {
+  color: var(--sub-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 16px;
+  max-width: 350px;
+  padding-bottom: 48px;
+}
+.newsletter_text input {
+  padding: 16px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  border: 1px solid var(--sub-color);
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+.newsletter_text input:focus {
+  outline-color: var(--primary-color);
+}
+.newsletter_btn button {
+  width: 100%;
+}
+.newsletter_discount {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 324px;
+  height: 120px;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  transform: rotate(-19.628deg) translateX(20px);
+  transform-origin: bottom left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter_discount p {
+  color: var(--white-color);
+  font-size: 24px;
+  font-weight: 400;
+}
+.newsletter_discount span {
+  color: var(--white-color);
+  font-size: 32px;
+  font-weight: 800;
+  padding-top: 4px;
+}
+.newsletter_img {
+  position: relative;
+}
+.newsletter_img img {
+  width: 100%;
+  height: 100%;
+}
 /* ...........................  */
 .trial {
   padding: 40px 0;

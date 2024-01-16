@@ -61,4 +61,10 @@
   .choose_single_box {
     width: 100%;
   }
+
+  /* newsletter section responsive */
+  .newsletter_wrapper {
+    grid-template-columns: 1fr;
+    margin: 0 5px;
+  }
 }
