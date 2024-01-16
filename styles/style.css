@@ -301,6 +301,143 @@ body {
   text-align: left;
 }
 
+/* deals section styles */
+.deals_wrapper {
+  padding-bottom: 100px;
+}
+.deals_wrapper > h3 {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deals_wrapper > p {
+  color: var(--sub-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  max-width: 643px;
+  margin: 0 auto;
+}
+.deals_first_box {
+  background: url("../Images/Group\ 40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 56px 0;
+  margin-bottom: 24px;
+  padding-left: 56px;
+}
+.deals_common:nth-child(odd) {
+  background: url("../Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 56px;
+  border-radius: 16px;
+}
+.deals_inner_box {
+  background-color: var(--white-color);
+  max-width: 579px;
+  padding: 50px;
+  border-radius: 16px;
+}
+
+.inner_top_intro {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.inner_top_intro > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.inner_top_intro i,
+.inner_top_intro span {
+  color: var(--primary-color);
+}
+.inner_top_intro span {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+.deals_inner_box h3 {
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 26px;
+}
+.deals_inner_box p {
+  color: var(--sub-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 16px;
+}
+.deals_inner_box span {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+.deals_btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+/* place section styles */
+.place_wrapper {
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.place_text h3 {
+  color: var(--black-color);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  max-width: 448px;
+}
+.place_text p {
+  color: var(--sub-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.place_text ul {
+  padding-top: 24px;
+  padding-left: 20px;
+}
+.place_text ul li {
+  color: var(--black-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding-bottom: 16px;
+}
+.place_text button {
+  margin-top: 16px;
+}
+.place_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place_video video {
+  border-radius: 16px;
+  height: auto;
+}
+
 /* newsletter section styles */
 
 .newsletter_wrapper {
@@ -415,6 +552,85 @@ body {
   color: var(--black-color);
   font-size: 16px;
   font-weight: 300;
+}
+
+/* team section styles */
+#team {
+  padding: 100px 0;
+}
+.team_wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: url("../Images/travel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px 0;
+  background-attachment: fixed;
+  border-radius: 16px;
+}
+#team .container > h2 {
+  color: var(--black-color);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+#team .container > p {
+  color: var(--sub-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  max-width: 643px;
+  margin: 0 auto;
+}
+.team_single_box {
+  border: 1px solid black;
+  width: 30%;
+  padding: 15px 10px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  background-color: white;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  object-fit: cover;
+}
+.team_single_box h2 {
+  padding-top: 16px;
+  font-size: 24px;
+  text-align: center;
+}
+.team_single_box span {
+  padding-top: 2px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+.team_single_box p {
+  text-align: justify;
+  padding: 16px 10px;
+}
+.team_social {
+  padding-top: 48px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.team_social i {
+  font-size: 26px;
+  padding: 0 15px;
+  cursor: pointer;
 }
 /* ...........................  */
 .trial {

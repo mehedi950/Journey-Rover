@@ -62,6 +62,25 @@
     width: 100%;
   }
 
+  /* deals section responsive */
+  .deals_first_box {
+    justify-content: center;
+    padding-right: 0px;
+  }
+  .deals_common:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+  }
+  .deals_inner_box {
+    width: 96%;
+  }
+
+  /* place section responsive */
+  .place_wrapper {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
   /* newsletter section responsive */
   .newsletter_wrapper {
     grid-template-columns: 1fr;
@@ -77,5 +96,14 @@
   }
   .newsletter_discount span {
     font-size: 20px;
+  }
+  /* team section responsive */
+  .team_wrapper {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .team_single_box {
+    width: 100%;
+    margin: 0 15px;
   }
 }
