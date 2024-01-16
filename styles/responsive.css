@@ -1,14 +1,34 @@
-/* nav responsive  */
 @media screen and (max-width: 600px) {
-  .container {
-    body {
-      padding: 0 5px;
-    }
-  }
+  /* nav responsive  */
+
   .nav_menu {
     display: none;
   }
   .hamburger_icon {
     display: block;
+  }
+  /* banner responsive  */
+  .banner_wrapper {
+    padding: 60px 8px;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .search_box {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .search_box > div {
+    display: block;
+    width: 100%;
+  }
+  .search_box select {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .search_box button {
+    width: 100%;
   }
 }
